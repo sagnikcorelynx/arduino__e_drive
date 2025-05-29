@@ -58,6 +58,7 @@ Connect via USB to your PC or use a 9V adapter for standalone use.
 POST /upload
 Content-Type: multipart/form-data
 ```
+> (Add a photo or video here showing the board, the SD card, and Postman/API upload)
 ```ssh
 curl -X POST -d "This is a test file upload" http://192.168.1.177/upload
 ```
