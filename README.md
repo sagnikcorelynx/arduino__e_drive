@@ -1,9 +1,7 @@
 ### ✅ Summary
-Feature	Arduino + Ethernet Shield
-Max SD card size	32GB FAT32 (64GB if FAT32)
-File Serving	Basic HTML or text, no uploads
-Network Interface	LAN via W5100/W5500
-Speed	Slow (not suitable for large files)
+📁 Arduino LAN File Server with SD Card Storage
+This project demonstrates how to build a LAN-based File Server using an Arduino with an Ethernet Shield and a microSD card (up to 64GB, formatted as FAT32). The device connects to a local network via an Ethernet cable and exposes a simple HTTP API for uploading and retrieving files from the SD card. Ideal for low-cost, embedded, or offline file storage applications.
+
 
 ### Setup 
 ```text
@@ -28,8 +26,6 @@ Connect the other end to a LAN port on your router or switch (not WAN).
 
 🛠️ 4. Power Up the Arduino
 Connect via USB to your PC or use a 9V adapter for standalone use.
-
-
 ```
 
 ### Send POST Request to Upload file
