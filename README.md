@@ -2,6 +2,14 @@
 📁 Arduino LAN File Server with SD Card Storage
 This project demonstrates how to build a LAN-based File Server using an Arduino with an Ethernet Shield and a microSD card (up to 64GB, formatted as FAT32). The device connects to a local network via an Ethernet cable and exposes a simple HTTP API for uploading and retrieving files from the SD card. Ideal for low-cost, embedded, or offline file storage applications.
 
+📦 Use Cases
+Local file storage in sensor-based or data-logging projects
+
+Embedded file sharing without internet dependency
+
+Offline data capture and upload systems (e.g., for kiosks or machines)
+
+Teaching embedded networking and low-level HTTP processing
 
 ### Setup 
 ```text
