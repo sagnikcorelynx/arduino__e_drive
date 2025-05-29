@@ -11,6 +11,23 @@ Offline data capture and upload systems (e.g., for kiosks or machines)
 
 Teaching embedded networking and low-level HTTP processing
 
+### 🖧 Network Diagram
+```text
+lua
+Copy
+Edit
++-------------------------+        +--------------------+
+|   Computer / Phone      |<--->---|   WiFi Router      |
++-------------------------+        +---------+----------+
+                                           |
+                                           | (Ethernet)
+                                           |
+                                 +---------v----------+
+                                 |  Arduino + Shield  |
+                                 |  W5100 + SD Card   |
+                                 +--------------------+
+```                                 
+
 ### Setup 
 ```text
 🛠️ 1. Stack the Ethernet Shield
